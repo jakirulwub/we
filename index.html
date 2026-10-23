@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Akkcento creates bespoke engagement rings and wedding bands with an atelier's eye for proportion, detail, and permanence." />
+  <meta name="theme-color" content="#f4f0e9" />
+  <title>Akkcento — Bespoke Fine Jewelry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">Complimentary private consultations · Crafted for your forever</div>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Akkcento home">Akkcento<span>®</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="#collections">Collections</a><a href="#atelier">The Atelier</a><a href="#process">Bespoke Process</a><a href="#journal">Journal</a>
+      <a class="nav-cta" href="#consultation">Book a consultation</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow">Fine jewelry · New York / Worldwide</p>
+        <h1>Made to hold<br><em>your forever.</em></h1>
+        <p class="lede">Quietly extraordinary rings, designed around the moments that become your story.</p>
+        <div class="button-row"><a class="button button-dark" href="#collections">Explore the collection</a><a class="text-link" href="#consultation">Begin something bespoke <span>↗</span></a></div>
+      </div>
+      <div class="hero-image image-frame"><img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1600&q=85" alt="Close-up of a solitaire engagement ring" /></div>
+    </section>
+
+    <section class="intro section-pad" id="atelier"><div class="section-kicker">01 / The Akkcento approach</div><div class="intro-grid"><h2>Less, but<br><em>more meaningful.</em></h2><div><p class="large-copy">We believe the most enduring pieces are the ones that feel inevitable—considered, personal, and beautifully restrained.</p><p>From first sketch to final polish, every Akkcento piece is shaped by hand and guided by proportion. The result is fine jewelry with a distinctly modern soul.</p><a class="text-link" href="#process">Discover our atelier <span>↗</span></a></div></div></section>
+
+    <section class="collections section-pad" id="collections"><div class="section-heading"><div><div class="section-kicker">02 / Signature collections</div><h2>Find your <em>form.</em></h2></div><div class="filters" role="group" aria-label="Filter collections"><button class="filter active" data-filter="all">All pieces</button><button class="filter" data-filter="engagement">Engagement</button><button class="filter" data-filter="bands">Wedding bands</button></div></div><div class="product-grid" id="product-grid"></div></section>
+
+    <section class="split-feature section-pad"><div class="feature-image image-frame"><img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&q=85" alt="Gold jewelry arranged on a neutral surface" loading="lazy" /></div><div class="feature-copy"><div class="section-kicker">03 / Made around you</div><h2>Your story,<br><em>in every detail.</em></h2><p>Whether you arrive with a clear vision or only a feeling, our bespoke service turns the personal into the permanent. Diamond, metal, proportion—we consider every detail together.</p><a class="button button-outline" href="#consultation">Start your design</a></div></section>
+
+    <section class="process section-pad" id="process"><div class="section-kicker">04 / The bespoke process</div><div class="process-heading"><h2>A slower way<br><em>to make forever.</em></h2><p>Thoughtful design takes time. Our private process is collaborative, transparent, and entirely yours.</p></div><div class="steps"><article><span>01</span><h3>Conversation</h3><p>We begin by listening—to your story, your style, and the feeling you want the piece to hold.</p></article><article><span>02</span><h3>Composition</h3><p>Our designers refine proportion, stone, and setting through considered sketches and 3D renderings.</p></article><article><span>03</span><h3>Craft</h3><p>Master artisans bring the design to life, with every surface finished and inspected by hand.</p></article><article><span>04</span><h3>Reveal</h3><p>Your finished piece arrives ready for the moment it was always meant to mark.</p></article></div></section>
+
+    <section class="journal section-pad" id="journal"><div class="section-heading"><div><div class="section-kicker">05 / From the journal</div><h2>Notes on <em>forever.</em></h2></div><a class="text-link" href="#consultation">View all stories <span>↗</span></a></div><div class="journal-grid"><article><img src="https://images.unsplash.com/photo-1543294001-f7cd5d7fb516?auto=format&fit=crop&w=900&q=85" alt="Minimal gold ring detail" loading="lazy" /><p class="article-meta">Design notes · 04.12.26</p><h3>The poetry of a quiet setting</h3></article><article><img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=900&q=85" alt="Jeweler working at an atelier bench" loading="lazy" /><p class="article-meta">The atelier · 03.28.26</p><h3>In praise of the hand-finished</h3></article><article><img src="https://images.unsplash.com/photo-1603561596112-db2d5d6df40c?auto=format&fit=crop&w=900&q=85" alt="Wedding rings on a neutral background" loading="lazy" /><p class="article-meta">Guides · 03.07.26</p><h3>Choosing a band that is entirely yours</h3></article></div></section>
+
+    <section class="consultation section-pad" id="consultation"><div class="consultation-card"><div><div class="section-kicker">Private appointments</div><h2>Let's make<br><em>something lasting.</em></h2><p>Tell us a little about what you're imagining. Our concierge will be in touch within two business days.</p></div><form id="consultation-form"><label for="name">Your name<input id="name" name="name" type="text" required placeholder="First and last name" /></label><label for="email">Email address<input id="email" name="email" type="email" required placeholder="you@example.com" /></label><label for="interest">I'm interested in<select id="interest" name="interest"><option>Engagement ring</option><option>Wedding band</option><option>Custom design</option><option>Private appointment</option></select></label><label for="message">A note, if you'd like<textarea id="message" name="message" rows="3" placeholder="Tell us about your vision..."></textarea></label><button class="button button-dark" type="submit">Request a consultation <span>↗</span></button><p class="form-status" role="status" aria-live="polite"></p></form></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top"><a class="wordmark" href="#top">Akkcento<span>®</span></a><p>Objects of meaning,<br>made for a lifetime.</p><div class="footer-links"><a href="#collections">Collections</a><a href="#atelier">About the atelier</a><a href="#consultation">Contact</a><a href="#consultation">Instagram ↗</a></div></div><div class="footer-bottom"><span>© 2026 Akkcento Fine Jewelry</span><span>Privacy · Terms · Accessibility</span><span>Made with intention</span></div></footer>
+  <div class="modal" id="quick-view" aria-hidden="true"><div class="modal-backdrop" data-close></div><div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" data-close aria-label="Close quick view">×</button><img id="modal-image" src="" alt="" /><div class="modal-info"><p class="eyebrow" id="modal-category"></p><h2 id="modal-title"></h2><p id="modal-description"></p><a href="#consultation" class="button button-dark" data-close>Enquire about this piece</a></div></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
